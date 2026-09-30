@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register | Mini Tech Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="form-container">
+        <h2>Create Account</h2>
+
+        <form action="#" method="post">
+
+            <label>Full Name</label>
+            <input type="text" name="fullname" required>
+
+            <label>Email</label>
+            <input type="email" name="email" required>
+
+            <label>Password</label>
+            <input type="password" name="password" required>
+
+            <label>Date of Birth</label>
+            <input type="date" name="dob">
+
+            <label>Phone Numbers</label>
+            <input type="tel" name="phone">
+
+            <label>Gender</label>
+            <div class="radio-group">
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+
+            <label>Interests</label>
+            <div class="checkbox-group">
+                <input type="checkbox" name="interest" value="laptops"> Laptops
+                <input type="checkbox" name="interest" value="phones"> Phones
+                <input type="checkbox" name="interest" value="gaming"> Gaming
+            </div>
+
+            <label>Country</label>
+            <select name="country">
+                <option>South Africa</option>
+                <option>Namibia</option>
+                <option>USA</option>
+            </select>
+
+            <label>Address</label>
+            <textarea name="address"></textarea>
+
+            <label>Profile Picture</label>
+            <input type="file" name="profile">
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p>Already have an account? <a href="login.html">Login Here</a></p>
+
+    </main>
+</body>
+
+</html> 
